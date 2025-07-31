@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduBoard - Student Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <nav class="sidebar">
+      <h2>EduBoard</h2>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Subjects</a></li>
+        <li><a href="#">Attendance</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <header class="topbar">
+        <div class="profile">
+          
+          <span>John Doe</span>
+        </div>
+        <div class="icons">
+          <i class="fas fa-bell"></i>
+        </div>
+      </header>
+
+      <section class="cards">
+        <div class="card">GPA: <strong>3.8</strong></div>
+        <div class="card">Attendance: <strong>92%</strong></div>
+        <div class="card">Assignments Due: <strong>3</strong></div>
+        <div class="card">Total Credits: <strong>22</strong></div>
+      </section>
+
+      <section class="progress-table">
+        <h3>Subject Progress</h3>
+        <table>
+          <tr>
+            <th>Subject</th>
+            <th>Completion</th>
+          </tr>
+          <tr>
+            <td>Mathematics</td>
+            <td><div class="progress"><div style="width: 85%"></div></div></td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td><div class="progress"><div style="width: 70%"></div></div></td>
+          </tr>
+          <tr>
+            <td>Chemistry</td>
+            <td><div class="progress"><div style="width: 90%"></div></div></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="deadlines">
+        <h3>Upcoming Deadlines</h3>
+        <ul>
+          <li><span class="date">Aug 5</span> Assignment: Physics Lab Report</li>
+          <li><span class="date">Aug 8</span> Assignment: Chemistry Essay</li>
+        </ul>
+      </section>
+
+      <section class="profile-card">
+        <h3>Student Profile</h3>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Roll No:</strong> 123456</p>
+        <p><strong>Email:</strong> john.doe@example.com</p>
+        <p><strong>College:</strong> XYZ College</p>
+        <p><strong>Department:</strong> Computer Science</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
